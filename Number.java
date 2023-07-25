@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Number {
     public static void main(String[] args) {
-        int a, b, c, largest, temp;
+        int a, b, c, largest, temp, average;
         // object of the Scanner class
         Scanner sc = new Scanner(System.in);
         // reading input from the user
@@ -18,5 +18,8 @@ public class Number {
         largest = c > temp ? c : temp;
         // prints the largest number
         System.out.println("The largest number is: " + largest);
+
+        average = (a + b + c) / 3;
+
     }
 }
